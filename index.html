@@ -20,7 +20,7 @@
     
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+        <a class="nav-link text-dark" aria-current="page" href="#home">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-dark" href="#">Articles</a>
@@ -36,21 +36,30 @@
     </div>
     </nav>
     <!-- Image Section -->
-    <div class="main-container">
-    <div class="cover">
-        <img class="cover-image" src="venu1.JPG"/>
+
+    <div class="container">
+        <div class="row">
+          <a name="home"></a>
+            <div id="bio" class="col-12 col-lg-6 text-center">
+                <img src="venu1.JPG" class="img-fluid" />
+            </div>
+            <div id="more" class="col-12 col-lg-6">
+              <h1 id="name">I'M BESTHA VENU GOPAL</h1>
+                <p>Student at Rajeev Gandhi Memorial College of Engineering and Technology.</p>
+                <p>Aspiring Full Stack Developer.</p>
+                <a href="venuResume.pdf" class="btn btn-warning">My Resume</a>
+            </div>
+        </div>
     </div>
    
-      <h1 id="name">BESTHA VENU GOPAL</h1>
-  
-    </div>
+
 
     <!-- About / Home Code -->
     
     
     <!--Footer Code-->
     
-    <span class="background">
+    <!-- <span class="background">
       <div class="contact">
         
         <div> Email : besthavenu225@gmail.com</div>
@@ -73,6 +82,7 @@
           <img alt="LinkedIn" src="icons/linkedin.svg" />
         </span>
       </span>
-    </span>
+    </span> -->
+     <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
