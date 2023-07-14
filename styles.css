@@ -9,6 +9,8 @@
 } 
 hr{
     color: blue;
+    margin-top: 50px;
+    
 }
 img{
     border-radius: 20px;
@@ -18,4 +20,40 @@ img{
     margin-top:80px;
     
 }
+
+/* Articles section */
+.alignment{
+    margin-left: 30px;
+}
+/* .firstPart{
+    margin-left:30px ;
+} */
+
+/* .articleDisplay{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+.description1{
+    margin-left:40px;
+}
+.description2{
+    margin-right:40px;
+} */
+img{
+    width:100%;
+}
+/* .imageSection{
+    width:100%;
+
+} */
+/* .imageSection1{
+    height: 150px;
+} */
+
+
+/* projects Section */
+
+
 /* footer */
